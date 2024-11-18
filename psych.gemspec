@@ -72,7 +72,7 @@ DESCRIPTION
     s.add_dependency 'jar-dependencies', '>= 0.1.7'
   else
     s.extensions = ["ext/psych/extconf.rb"]
-    s.add_dependency 'stringio'
+    s.add_dependency 'stringio', '>= 0'
   end
 
   s.metadata['msys2_mingw_dependencies'] = 'libyaml'
